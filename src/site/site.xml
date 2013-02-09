@@ -1,0 +1,28 @@
+<project
+    xmlns="http://maven.apache.org/DECORATION/1.3.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/DECORATION/1.3.0 http://maven.apache.org/xsd/decoration-1.3.0.xsd"
+    name="Java Collections">
+    <bannerLeft>
+        <name>Java Collections</name>
+        <href>https://github.com/rstiller/java-collections</href>
+        <title>Java Collections</title>
+    </bannerLeft>
+    <body>
+        <links>
+            <item name="Apache" href="http://www.apache.org/"/>
+            <item name="Maven 1.x" href="http://maven.apache.org/maven-1.x/"/>
+            <item name="Maven 2" href="http://maven.apache.org/"/>
+        </links>
+        <menu name="Overview">
+            <item name="Tutorial" href="tutorial.html"/>
+        </menu>
+        <menu ref="modules"/>
+        <menu ref="reports"/>
+    </body>
+    <skin>
+        <groupId>org.apache.maven.skins</groupId>
+        <artifactId>maven-fluido-skin</artifactId>
+        <version>1.3.0</version>
+    </skin>
+</project>
